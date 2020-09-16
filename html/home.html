@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TornadoDatabase</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>Tornado Database</h1>
+        </div>
+
+        <nav class="database">
+            <div class="container">
+                <ul class="nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="database.html">Database</a></li>
+                    <li><a href="signup.html">Sign-Up</a></li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+
+    <section id="main-image">
+        <div class="container">
+            <img src="../images/el-reno-tornado.jpg" alt=">2013 El-Reno, OK tornado">
+            <br>
+            <figcaption class="captions">2013 El-Reno, OK Tornado</caption>
+        </div>
+    </section>
+    
+    <section id="main-bar">
+        <div class="container">
+            <h3>How tornadoes form</h3>
+            <p>
+                A supercell, unlike a regular ole thunderstorm, contains the most-important ingredient in the making of a tornado: a spinning column of air at its center, 
+                called a vortex. As a supercell grows in size, the vortex in the middle will begin to tilt, siphoning warm air and moisture upward and spewing out cold 
+                dry air toward the ground. The updraft of warm air causes the vortex to swell with water vapor, creating a spiraling funnel cloud at its center—the first 
+                visible sign that a tornado is brewing. The cool downdraft of air then battles the funnel cloud’s upward spiral, focusing the cloud into a smaller area 
+                and increasing its speed. With enough pressure and weight from the downdraft of cool air, the quickening funnel cloud is forced to touch down on the 
+                ground, and a tornado is officially born.
+                <cite>https://www.britannica.com/story/how-do-tornadoes-form</cite>
+                    <a href="https://www.britannica.com/story/how-do-tornadoes-form" target="blank">Original article</a>
+            </p>
+        </div>
+    </section>
+
+    <section class="youtube-video">
+        <div class="container">
+            <!--Video of tornados by national geographic-->
+            <iframe width=750 height="480" src="https://www.youtube.com/embed/aacHWoB7cmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <article class="index-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <label>Send a tornado that needs to be added to our database</label>
+                    <textarea class="form-control" placeholder="Date, time, and location of Tornado"></textarea>
+                    <button class="btn btn-primary btn-sm-2">Submit</button>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+    </article>
+
+    <footer id="footer">
+        <div class="container">
+            copyright &copy; 2020, Tornado Database
+        </div>
+    </footer>
+
+</body>
+</html>
