@@ -1,0 +1,69 @@
+p{
+    text-align: center;
+}
+
+h3{
+    padding: 20px 0px;
+    text-align: center;
+}
+
+#main-header{
+    background-color: black;
+}
+
+#main-header > div > h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 4em;
+}
+
+
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#main-image{
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.captions{
+    font-style: italic;
+}
+
+.youtube-video{
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.database{
+    display: flex;
+    background-color: tomato;
+    padding: 10px 0px;
+    margin-bottom: 40px;
+}
+
+.nav{
+    justify-content: space-evenly;
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav > div > ul > li > a{
+    color: white;
+}
+
+.nav a:hover{ 
+    color: blue;
+}
+
+.index-form{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
